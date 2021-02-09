@@ -82,7 +82,7 @@
                                   <Component id="jTextField1" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
                                   <Component id="txtStock" alignment="0" max="32767" attributes="0"/>
                                   <Component id="txtPrecio" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jDateChooser1" alignment="0" min="-2" pref="227" max="-2" attributes="0"/>
+                                  <Component id="txtFecha" alignment="0" min="-2" pref="227" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -198,7 +198,7 @@
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jDateChooser1" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtFecha" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -338,7 +338,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser1">
+    <Component class="com.toedter.calendar.JDateChooser" name="txtFecha">
     </Component>
     <Component class="javax.swing.JComboBox" name="cmbCategoria">
       <Properties>
