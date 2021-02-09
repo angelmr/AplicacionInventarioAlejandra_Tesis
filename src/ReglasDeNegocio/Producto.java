@@ -16,19 +16,21 @@ public class Producto {
     private Categoria categoria;
     private Proveedor proveedor;
     private String nombre;
-    private int cantidad;
+    private String descripcion;
+    private int stock;
     private double precio;
     private Date fecha;
 
     public Producto() {
     }
 
-    public Producto(int id_producto, Categoria categoria, Proveedor proveedor, String nombre, int cantidad, double precio, Date fecha) {
+    public Producto(int id_producto, Categoria categoria, Proveedor proveedor, String nombre, String descripcion, int stock, double precio, Date fecha) {
         this.id_producto = id_producto;
         this.categoria = categoria;
         this.proveedor = proveedor;
         this.nombre = nombre;
-        this.cantidad = cantidad;
+        this.descripcion = descripcion;
+        this.stock = stock;
         this.precio = precio;
         this.fecha = fecha;
     }
@@ -72,13 +74,21 @@ public class Producto {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
-    public int getCantidad() {
-        return cantidad;
+    
+    public String getDescripcion() {
+        return descripcion;
     }
 
-    public void setCantidad(int cantidad) {
-        this.cantidad = cantidad;
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public int getStock() {
+        return stock;
+    }
+
+    public void setStock(int stock) {
+        this.stock = stock;
     }
 
     public double getPrecio() {
